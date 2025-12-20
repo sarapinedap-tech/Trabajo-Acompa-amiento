@@ -102,15 +102,34 @@ Las funciones de visualización se encuentran en `src/visualizaciones.py`.
 
 ---
 
-## Reproducibilidad
+## Resultados y hallazgos principales
 
-El proyecto puede ejecutarse utilizando Python y las librerías:
-- pandas
-- numpy
-- matplotlib
-- seaborn
+- **Significado de los datos:**  
+  Los datos analizados reflejan la estructura de precios de medicamentos comercializados en Colombia, permitiendo observar cómo varía el costo por tableta según el principio activo y la clasificación del factor de precio. El precio por tableta se utiliza como un indicador económico relevante para evaluar accesibilidad y posibles barreras al acceso a medicamentos.
 
-Los notebooks siguen un flujo secuencial y reutilizan funciones definidas en la carpeta `src`.
+- **Patrones encontrados:**  
+  Se identificó una distribución desigual de los precios, con concentración de valores en rangos bajos y presencia de precios elevados en algunos medicamentos específicos. El análisis por principio activo mostró que ciertos medicamentos aparecen con mayor frecuencia en el conjunto de datos, lo que sugiere una mayor oferta o uso en el mercado.  
+  Además, la correlación entre el precio por tableta y la variable `factoresprecio` codificada evidenció una relación positiva, indicando que los medicamentos clasificados como de precio alto presentan, en general, valores monetarios mayores.
+
+- **Hallazgos inesperados:**  
+  Se observaron valores atípicos en el precio por tableta que superan ampliamente el promedio del conjunto de datos, lo cual no es uniforme entre todos los principios activos. Esto sugiere que factores adicionales, como fabricante, concentración o presentación, podrían influir de manera significativa en el precio y no están completamente capturados por la clasificación del factor de precio.
+
+
+## Conclusiones
+
+- **Qué se descubrió:**  
+  El análisis de los datos permitió identificar una alta variabilidad en el precio por tableta de los medicamentos analizados. Se evidenció que algunos principios activos concentran una mayor presencia en el mercado y que la clasificación cualitativa del factor de precio (bajo, medio y alto) guarda relación con el valor económico del medicamento, lo cual respalda su utilidad como indicador general de costo.
+
+- **Limitaciones de los datos:**  
+  El conjunto de datos no incluye información sobre consumo real, volumen de ventas, ni características clínicas de los pacientes. Además, la variable de factor de precio es una clasificación cualitativa, lo que limita la precisión de los análisis cuantitativos. No se cuenta con una dimensión temporal suficientemente detallada para evaluar cambios en los precios a lo largo del tiempo.
+
+- **Recomendaciones para políticas de salud o gestión farmacéutica:**  
+  Los resultados sugieren la necesidad de fortalecer estrategias de regulación y monitoreo de precios de medicamentos, especialmente en aquellos con alta variabilidad de costos. La información analizada puede servir como apoyo para procesos de gestión farmacéutica orientados a mejorar el acceso y la equidad en la disponibilidad de medicamentos.
+
+- **Análisis futuro útil:**  
+  Para futuros estudios, sería relevante incorporar datos de consumo por región, EPS o institución de salud, así como analizar la evolución temporal de los precios. También sería útil relacionar los precios con indicadores de demanda y cobertura para evaluar el impacto económico en el sistema de salud.
+
+
 
 
 
