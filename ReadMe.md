@@ -82,3 +82,36 @@ Las funciones de visualización se encuentran en `src/visualizaciones.py`.
 
 ## Estructura del repositorio
 
+📁 Apellido_Nombre/
+│
+├── README.md
+├── data/
+│ └── raw/
+│ └── datos_medicamentos.csv
+│
+├── notebooks/
+│ ├── 01_exploracion.ipynb
+│ ├── 02_limpieza.ipynb
+│ └── 03_analisis_visualizaciones.ipynb
+│
+├── src/
+│ ├── limpieza.py
+│ ├── analisis.py
+│ └── visualizaciones.py
+
+
+---
+
+## Reproducibilidad
+
+El proyecto puede ejecutarse utilizando Python y las librerías:
+- pandas
+- numpy
+- matplotlib
+- seaborn
+
+Los notebooks siguen un flujo secuencial y reutilizan funciones definidas en la carpeta `src`.
+
+
+
+
