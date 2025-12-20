@@ -14,7 +14,7 @@ Este trabajo se desarrolla en el contexto de las Ciencias Farmacéuticas, apoyan
 
 ---
 
-## Origen de los datos (obligatorio)
+## Origen de los datos 
 
 - **Nombre del conjunto de datos:** Medicamentos – precios y características
 - **Plataforma:** Datos Abiertos Colombia
@@ -110,6 +110,7 @@ Las funciones de visualización se encuentran en `src/visualizaciones.py`.
 
 - **Análisis futuro útil:**  
   Para futuros estudios, sería relevante incorporar datos de consumo por región, EPS o institución de salud, así como analizar la evolución temporal de los precios. También sería útil relacionar los precios con indicadores de demanda y cobertura para evaluar el impacto económico en el sistema de salud.
+
 
 
 
