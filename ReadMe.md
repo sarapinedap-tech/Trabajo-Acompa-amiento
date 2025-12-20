@@ -2,7 +2,7 @@
 
 ## Descripción del proyecto
 
-Este proyecto realiza un análisis exploratorio, estadístico y visual de datos relacionados con medicamentos comercializados en Colombia, con el fin de identificar patrones en los precios y su relación con factores asociados al costo de los medicamentos.
+Este proyecto realiza un análisis exploratorio, estadístico y visual de datos relacionados con medicamentos comercializados en Colombia, con el fin de identificar patrones en los precios equivalentes por tableta o cápsula de diferentes alternativas en el mercado, para un mismo medicamento.
 
 El análisis se enfoca en responder preguntas como:
 - ¿Cómo se distribuyen los precios de los medicamentos por tableta?
@@ -87,7 +87,12 @@ Las funciones de visualización se encuentran en `src/visualizaciones.py`.
 ## Resultados y hallazgos principales
 
 - **Significado de los datos:**  
-  Los datos analizados reflejan la estructura de precios de medicamentos comercializados en Colombia, permitiendo observar cómo varía el costo por tableta según el principio activo y la clasificación del factor de precio. El precio por tableta se utiliza como un indicador económico relevante para evaluar accesibilidad y posibles barreras al acceso a medicamentos.
+  El análisis por unidad de dispensación mostró que la forma farmacéutica más frecuente es la tableta, representando aproximadamente el 47 % del total de registros, por lo cual el resto de análisis se enfocó principalmente en esta forma farmacéutica. Después de las tabletas les siguen los frascos (17,7 %) y cápsulas (11,9 %). Esta distribución refleja la predominancia de las formas sólidas orales, las cuales suelen asociarse con procesos de fabricación estandarizados y menores costos de producción.
+
+Al continuar con este enfoque de análisis, se evidenció que la alta frecuencia de una forma farmacéutica no implica necesariamente homogeneidad en el precio pues los costos por unidad de tableta variaron notoramiente lo que podría deberse a variables como concentración del principio ctivo, fabricante, indicación terapéutica o variables que no están en el conjunto de datos pero que pueden afectar los costos como principios activos de estrecho margen terapéutico, para patologías poco frecuentes, de control especial, etc. 
+En la dispersión del precio por unidad, se observa que algunas formas farmacéuticas menos frecuentes, como ampollas, viales y jeringas prellenadas, presentan una mayor variabilidad de precios, lo que sugiere la influencia de factores adicionales como esterilidad, complejidad tecnológica, condiciones de almacenamiento y uso clínico especializado. En contraste, las tabletas y cápsulas tienden a concentrar una mayor proporción de precios en rangos bajos y medios, lo que puede explicarse por economías de escala, competencia entre fabricantes y una mayor disponibilidad de alternativas terapéuticas.
+
+Este comportamiento evidencia que la forma farmacéutica es un factor relevante en la variabilidad del precio, pero debe analizarse en conjunto con otras características del medicamento para comprender completamente la estructura de costos en el mercado farmacéutico colombianp .Los datos analizados reflejan la estructura de precios de medicamentos comercializados, permitiendo observar cómo varía el costo por tableta según el principio activo y la clasificación del factor de precio. El precio por tableta se utiliza como un indicador económico relevante para evaluar accesibilidad y posibles barreras al acceso a medicamentos.
 
 - **Patrones encontrados:**  
   Se identificó una distribución desigual de los precios, con concentración de valores en rangos bajos y presencia de precios elevados en algunos medicamentos específicos. El análisis por principio activo mostró que ciertos medicamentos aparecen con mayor frecuencia en el conjunto de datos, lo que sugiere una mayor oferta o uso en el mercado.  
@@ -110,6 +115,7 @@ Las funciones de visualización se encuentran en `src/visualizaciones.py`.
 
 - **Análisis futuro útil:**  
   Para futuros estudios, sería relevante incorporar datos de consumo por región, EPS o institución de salud, así como analizar la evolución temporal de los precios. También sería útil relacionar los precios con indicadores de demanda y cobertura para evaluar el impacto económico en el sistema de salud.
+
 
 
 
