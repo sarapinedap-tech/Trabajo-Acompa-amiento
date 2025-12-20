@@ -62,28 +62,6 @@ Las funciones de visualización se encuentran en `src/visualizaciones.py`.
 
 ---
 
-## Estructura del repositorio
-
-📁 Apellido_Nombre/
-│
-├── README.md
-├── data/
-│ └── raw/
-│ └── datos_medicamentos.csv
-│
-├── notebooks/
-│ ├── 01_exploracion.ipynb
-│ ├── 02_limpieza.ipynb
-│ └── 03_analisis_visualizaciones.ipynb
-│
-├── src/
-│ ├── limpieza.py
-│ ├── analisis.py
-│ └── visualizaciones.py
-
-
----
-
 ## Resultados y hallazgos principales
 
 - **Significado de los datos:**  
@@ -115,6 +93,7 @@ Este comportamiento evidencia que la forma farmacéutica es un factor relevante 
 
 - **Análisis futuro útil:**  
   Para futuros estudios, sería relevante incorporar datos de consumo por región, EPS o institución de salud, así como analizar la evolución temporal de los precios. También sería útil relacionar los precios con indicadores de demanda y cobertura para evaluar el impacto económico en el sistema de salud.
+
 
 
 
