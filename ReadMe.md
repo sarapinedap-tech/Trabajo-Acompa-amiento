@@ -62,24 +62,6 @@ Las funciones de visualización se encuentran en `src/visualizaciones.py`.
 
 ---
 
-## Resultados y hallazgos principales
-
-- Los precios de los medicamentos presentan una distribución asimétrica, con presencia de valores atípicos.
-- Algunos principios activos concentran una mayor cantidad de registros, lo que sugiere mayor presencia en el mercado.
-- Se observa una relación entre la clasificación del factor de precio y el valor monetario del medicamento, lo cual valida la categorización bajo, medio y alto.
-- Existe una alta variabilidad en los precios, lo que puede impactar el acceso equitativo a los medicamentos.
-
----
-
-## Conclusiones
-
-- El análisis permitió identificar patrones claros en la distribución de precios de medicamentos en Colombia.
-- Los datos presentan limitaciones, como la ausencia de información clínica o de consumo real.
-- Se recomienda complementar este análisis con datos de demanda, EPS o regiones para apoyar decisiones de política pública.
-- A futuro, sería útil analizar la evolución temporal de precios y su relación con regulaciones del mercado farmacéutico.
-
----
-
 ## Estructura del repositorio
 
 📁 Apellido_Nombre/
@@ -128,6 +110,7 @@ Las funciones de visualización se encuentran en `src/visualizaciones.py`.
 
 - **Análisis futuro útil:**  
   Para futuros estudios, sería relevante incorporar datos de consumo por región, EPS o institución de salud, así como analizar la evolución temporal de los precios. También sería útil relacionar los precios con indicadores de demanda y cobertura para evaluar el impacto económico en el sistema de salud.
+
 
 
 
